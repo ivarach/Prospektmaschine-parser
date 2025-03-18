@@ -78,7 +78,7 @@ class Parser:
 
             title = brochure.find("strong").text
             brochure_dict["title"] = title
-            brochure_dict["shop_name"] = shop
+            brochure_dict["shop_name"] = shop[:-1]
             
             link = brochure.find("a").get("href")
             brochure_dict["link"] = self.base_url + link
