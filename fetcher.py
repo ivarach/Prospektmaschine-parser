@@ -1,3 +1,4 @@
+# Author: Ivan Rachler
 from parser import Parser
 import httpx
 import asyncio

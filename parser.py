@@ -1,3 +1,4 @@
+# Author: Ivan Rachler
 import fetcher
 import utils
 import cli

@@ -1,3 +1,4 @@
+# Author: Ivan Rachler
 import re
 from datetime import datetime
 from bs4 import element
